@@ -1,11 +1,8 @@
 import streamlit as st
-import matplotlib.pyplot as plt
-import pandas as pd
-plt.rcParams['font.sans-serif'] = ['Microsoft YaHei'] 
 
 # 设置页面标题
 st.title("欢迎来到 Streamlit 介绍网站")
-st.write("我是北京大学信息管理系的学生，在上机器学习课程时学习了如何使用 Streamlit。这个网站是我用 Streamlit 搭建的，既是自己的一次实践锻炼，也希望能帮助大家更好地了解 Streamlit。")
+st.write("我是北京大学信息管理系的本科生，在上机器学习课程时学习了如何使用 Streamlit。这个网站是我用 Streamlit 搭建的，既是自己的一次实践锻炼，也希望能帮助大家更好地了解 Streamlit。")
 
 # 侧边栏目录
 st.sidebar.title("目录")
