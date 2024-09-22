@@ -78,10 +78,10 @@ st.image("imgs/demo网站.png")
 st.write("用streamlit实现计算bmi和体脂的功能，代码见demo.py")
 st.subheader("3.3 Streamlit的部署与分享")
 st.write("streamlit的部署方法有很多种，例如，现在着重介绍下Streamlit Sharing")
-st.write("首先打开官网https://share.streamlit.io/， 注册账号管理GitHub，然后就可以manage app，值得注意的是需要在自己的仓库中写好requirements.txt，否则会报ModuleNotFound Error;另外flask建构的网站是不能部署在Streamlit cloud上的，必须严格是使用Streamlit函数的才可以，否则会出现以下错误")
+st.write("首先打开官网https://share.streamlit.io/ ， 注册账号管理GitHub，然后就可以manage app，值得注意的是需要在自己的仓库中写好requirements.txt，否则会报ModuleNotFound Error;另外flask建构的网站是不能部署在Streamlit cloud上的，必须严格是使用Streamlit函数的才可以，否则会出现以下错误")
 st.image("imgs/ValueError.png")
 st.write("该网站已在streamlit sharing上部署好，url为https://applearning-lu4ftuuyfg7u6vaqqv9tkl.streamlit.app/")
-
+st.write("部署好后可以把链接分享给好友，可以选择general，任何拿到链接的人都可以访问，也可以选择只有被邀请的人才能访问")
 
 # conclusion
 st.header("4. Get started immediately!")
