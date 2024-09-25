@@ -1,7 +1,9 @@
-# Streamlit学习资料
+# Streamlit_learning_materials
 ## Background
-我是来自北京大学信息管理系的本科生，在上机器学习课程时了解到了Streamlit，现分享下自己的学习资料，希望对大家有所帮助
+I am an undergraduate student from the Department of Information Management of Peking University. 
+I learn about Streamlit when I am taking a machine learning course.
+I would like to share my learning materials and hope it will be helpful.
 ## How to use
-- 安装streamlit后，终端键入streamlit run app.py（本地）
-- 直接点击https://applearning-lu4ftuuyfg7u6vaqqv9tkl.streamlit.app/ （云端）
-- 直接浏览pdf版本的调研报告
+- click [streamlit_learning] (https://applearning-lu4ftuuyfg7u6vaqqv9tkl.streamlit.app/) for quick look.
+- After pip streamlit, input "streamlit run app.py" in terminal.
+- Straightly look the pdf version.

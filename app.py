@@ -73,17 +73,19 @@ st.write("下载完成后可输入“streamlit hello”进行检验，如成功�
 st.image("imgs/官方网站.png")
 st.write("在这可以观看官网给的几个使用demo，然后新建py文件，在终端输入以下代码即可用streamlit实现自己的网址功能")
 st.code('streamlit run xxx.py')
-st.subheader("3.2 一个自己做的小的Streamlit demo")
+st.subheader("3.2 几个自己做的小的Streamlit demo")
 st.image("imgs/demo网站.png")
 st.write("用streamlit实现计算bmi和体脂的功能，代码见demo.py")
+st.image()
 st.subheader("3.3 Streamlit的部署与分享")
-st.write("streamlit的部署方法有很多种，例如，现在着重介绍下Streamlit Sharing")
+st.write("streamlit的部署方法有很多种，例如Streamlit Sharing,Heroku,Docker,AWS,Google Cloud或Azure，现在着重介绍下Streamlit Sharing")
 st.write("首先打开官网https://share.streamlit.io/ ， 注册账号管理GitHub，然后就可以manage app，值得注意的是需要在自己的仓库中写好requirements.txt，否则会报ModuleNotFound Error;另外flask建构的网站是不能部署在Streamlit cloud上的，必须严格是使用Streamlit函数的才可以，否则会出现以下错误")
 st.image("imgs/ValueError.png")
-st.write("该网站已在streamlit sharing上部署好，url为https://applearning-lu4ftuuyfg7u6vaqqv9tkl.streamlit.app/")
 st.write("部署好后可以把链接分享给好友，可以选择general，任何拿到链接的人都可以访问，也可以选择只有被邀请的人才能访问")
 
 # conclusion
 st.header("4. Get started immediately!")
 st.write("访问 [Streamlit 官方网站](https://streamlit.io) 了解更多信息。")
+st.write("官方api参考：https://docs.streamlit.io/develop/api-reference")
 st.write("streamlit中文版学习文档：http://cw.hubwiz.com/card/c/streamlit-manual/1/2/3/" )
+
