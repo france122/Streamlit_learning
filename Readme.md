@@ -11,7 +11,7 @@ streamlit run app.py
 ```
 ## A Demo Application
 ```bash
-streamlit run .py
+streamlit run demo.py
 ```
 ## House_price_prediction Model
 ```bash
