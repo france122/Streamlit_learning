@@ -1,5 +1,4 @@
 # Streamlit_learning_materials
- click [streamlit_learning](https://applearning-lu4ftuuyfg7u6vaqqv9tkl.streamlit.app/) for quick look.
 ## Background
 I am an undergraduate student from the Department of Information Management of Peking University. 
 I learn about Streamlit when I am taking Machine Learning course.
